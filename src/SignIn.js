@@ -10,7 +10,7 @@ const SignIn = () => {
     auth.signInWithPopup(googleProvider)
   }
   const gitHubAuthenticate = () => {
-  auth.signInWithPopup(githubProvider)
+    auth.signInWithPopup(githubProvider)
   }
   return (
     <div className="SignIn">
