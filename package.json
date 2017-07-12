@@ -1,12 +1,13 @@
 {
   "name": "noteherder",
-  "homepage": "http://xtbc17s3.github.io/noteherder",
+  "homepage": "https://ntguy.github.io/noteherder/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "re-base": "^3.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1",
     "react-rte": "^0.11.0"
   },
   "devDependencies": {
@@ -20,6 +21,5 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "homepage": "https://ntguy.github.io/noteherder/"
+  }
 }
